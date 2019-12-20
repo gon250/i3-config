@@ -10,7 +10,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Run Kupfer
-exec --no-startup-id kupfer
+#exec --no-startup-id kupfer
 
 # Launch compositor
 exec --no-startup-id ~/bin/launch-compton
@@ -51,7 +51,7 @@ bindsym $mod+q kill
 bindsym $mod+b exec gnome-screensaver-command --lock
 
 # start dmenu (a program launcher)
-bindsym $mod+m exec dmenu_run
+bindsym control+space exec ~/bin/rofi_dmenu
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
